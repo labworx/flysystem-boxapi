@@ -1,19 +1,19 @@
 <?php
 
-namespace Spatie\FlysystemDropbox;
+namespace Labworx\FlysystemBoxApi;
 
-use Spatie\Dropbox\Client;
+use Labworx\BoxApi\Client;
 use League\Flysystem\Config;
 use League\Flysystem\Util\MimeType;
-use Spatie\Dropbox\Exceptions\BadRequest;
+use Labworx\BoxApi\Exceptions\BadRequest;
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
 
-class DropboxAdapter extends AbstractAdapter
+class BoxApiAdapter extends AbstractAdapter
 {
     use NotSupportingVisibilityTrait;
 
-    /** @var \Spatie\Dropbox\Client */
+    /** @var \Labworx\BoxApi\Client */
     protected $client;
 
     public function __construct(Client $client, string $prefix = '')
