@@ -1,40 +1,39 @@
 {
-    "name": "spatie/flysystem-dropbox",
-    "description": "Flysystem Adapter for the Dropbox v2 API",
+    "name": "labworx/flysystem-boxapi",
+    "description": "Flysystem Adapter for the Box.com API",
     "keywords": [
-        "spatie",
-        "flysystem-dropbox",
+        "entidia",
+        "flysystem-boxapi",
         "flysystem",
-        "dropbox",
-        "v2",
+        "box.com",
         "api"
     ],
-    "homepage": "https://github.com/spatie/flysystem-dropbox",
+    "homepage": "https://github.com/labworx/flysystem-boxapi",
     "license": "MIT",
     "authors": [
         {
-            "name": "Alex Vanderbist",
-            "email": "alex.vanderbist@gmail.com",
-            "homepage": "https://spatie.be",
+            "name": "Markus Deuerlein",
+            "email": "deuerlein@entidia.de",
+            "homepage": "https://entidia.be",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.0",
         "league/flysystem": "^1.0.20",
-        "spatie/dropbox-api": "^1.1.0"
+        "maengkom/box": "^0.1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\FlysystemDropbox\\": "src"
+            "Labworx\\FlysystemBoxApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\FlysystemDropbox\\Test\\": "tests"
+            "Labworx\\FlysystemBoxApi\\Test\\": "tests"
         }
     },
     "scripts": {
