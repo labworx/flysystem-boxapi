@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlysystemDropbox\Test;
+namespace Labworx\FlysystemBoxApi\Test;
 
 use Prophecy\Argument;
 use Spatie\Dropbox\Client;
